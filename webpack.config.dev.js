@@ -60,4 +60,11 @@ module.exports = {
 			filename: 'styles/[name].[contenthash].css',
 		}),
 	],
+    devServer: {
+        static: path.join(__dirname, 'dist'),
+        compress: true,
+        historyApiFallback: true,
+        port: 8080,
+        open: true,
+    }
 }

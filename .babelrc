@@ -1,0 +1,10 @@
+{
+    "presets": [
+      "@babel/preset-env"
+  // establecemos estos presets que nos permiten usar las ultimas caracteristicas de js
+    ],
+    "plugins": [
+      "@babel/plugin-transform-runtime"
+  // establecemos estos plugins que vamos a utilizar para que nos permira trabajar con asincronismo
+    ]
+  }
